@@ -1,11 +1,13 @@
 require({
   paths: {
-    // 'scribe-common': '../bower_components/scribe-common'
+    'jquery': '../bower_components/jquery/dist/jquery'
   }
 }, [
-  '../src/app/app'
+  '../src/app/app',
+  'jquery'
 ], function (
-  app
+  app,
+  $
 ) {
 
 });
