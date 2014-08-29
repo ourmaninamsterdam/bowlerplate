@@ -5,9 +5,8 @@ require.config({
 });
 define([
   'jquery',
-  '../../bower_components/marked/lib/marked',
   './plugins/toggle'
-], function(jQuery, marked, toggle) {
+], function(jQuery, toggle) {
   var App = function(name) {
     this.name = name;
     this.plugins = {
