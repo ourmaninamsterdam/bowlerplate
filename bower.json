@@ -1,0 +1,12 @@
+{
+  "name": "require-bower",
+  "author": "Justin Perry <just.perry@gmail.com>",
+  "private": true,
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "requirejs": "2.1.11"
+  }
+}
+
